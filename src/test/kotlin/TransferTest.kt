@@ -19,7 +19,7 @@ class TransferTest {
         val amount = 15_001
 
         val result = transfer(previousTransfers = previousTransfer, amount = amount)
-        assertEquals(-1, result)
+        assertEquals(0, result)
     }
 
     @Test
